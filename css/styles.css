@@ -157,8 +157,16 @@ body {
 /* Hero */
 
 .hero {
+  margin: 0 auto;
   padding: 188px 0;
+  width: 1440px;
   background: var(--navyblue, #2e2f42);
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-img.jpg);
 }
 
 .hero-title {
