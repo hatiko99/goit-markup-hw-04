@@ -300,6 +300,8 @@ body {
 }
 
 .team-desc-text {
+  margin-bottom: 8px;
+
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -309,10 +311,13 @@ body {
 
 .team-desc-list {
   display: flex;
+  justify-content: space-around;
 }
 
 .team-desc-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
