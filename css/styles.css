@@ -396,10 +396,6 @@ body {
   align-items: baseline;
 }
 
-.footer-position-container {
-  display: flex;
-}
-
 .footer-logo-container {
   margin-right: 120px;
 }
@@ -426,9 +422,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.footer-social-container {
 }
 
 .footer-social-desc {
