@@ -124,7 +124,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link-active {
@@ -132,6 +131,7 @@ body {
   align-items: flex-end;
   position: relative;
   color: var(--OCEAN, #404bbf);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link-active::after {
@@ -253,6 +253,17 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
+.features-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
+
 .features-list-title {
   margin-bottom: 8px;
   font-size: 20px;
@@ -318,7 +329,8 @@ body {
 
 .team-desc-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-desc-link {
@@ -329,6 +341,16 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--IRIS, #4d5ae5);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-desc-link:hover,
+.team-desc-link:focus {
+  background-color: #404bbf;
+}
+
+.team-desc-icon {
+  fill: #f4f4fd;
 }
 
 /* Portfolio */
