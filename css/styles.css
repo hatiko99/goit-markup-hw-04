@@ -148,6 +148,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -325,11 +326,12 @@ img {
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-desc-list-link:hover,
 .team-desc-list-link:focus {
-    background-color: #404bbf;
+    background-color: #31D0AA;
 }
 
 .team-desc-list-icon {
@@ -338,12 +340,12 @@ img {
 
 /* OUR PORTFOLIO */
 
-.our-portfolio-section {
+.portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.our-portfolio-title {
+.portfolio-title {
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -354,25 +356,25 @@ img {
     color: #2e2f42;
 }
 
-.our-portfolio-list {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-.our-portfolio-item {
+.portfolio-item {
     flex-basis: calc((100% - 48px) / 3);
 }
 
-.our-portfolio-item-inner {
+.portfolio-desc-container {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
 
-.our-portfolio-item-subject {
+.portfolio-desc-title {
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -381,7 +383,7 @@ img {
     color: #2e2f42;
 }
 
-.our-portfolio-item-desc {
+.portfolio-desc-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
